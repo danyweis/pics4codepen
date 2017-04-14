@@ -1,0 +1,79 @@
+Firefox dev remplace Firefox
+
+Un après l'autre:
+
+sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+sudo apt update
+sudo apt install firefox
+
+
+
+Apache2
+
+sudo apt-get install apache2
+
+START
+sudo service apache2 start
+
+STOP
+sudo service apache2 stop
+
+RESTART
+sudo service apache2 restart
+
+
+ifconfig pour avoir l'IP 
+
+
+Page du localhost
+var/www/html/index.html
+
+
+
+Sass et ruby
+
+INSTALL Sass:
+sudo apt-get install ruby
+sudo gem install sass
+sass -v 
+normalement: Sass 3.4.22 (Selective Steve)
+
+RUN Sass:
+aller dans le dossier:
+sass --watch input.sass:output.css
+
+CONVERT Sass TO SCSS:
+sass-convert style.sass style.scss
+
+CONVERT SCSS TO Sass:
+sass-convert style.scss style.sass
+
+CONVERT CSS TO Sass:
+sass-convert -F css -T sass originalFile.css convertedFile.sass
+
+
+Git
+
+sudo apt-get install git
+git config --global user.name monNom
+git config --global user.email monMail
+
+
+
+Atom 64bit
+
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+
+
+Nettoye le system
+
+sudo apt autoremove
+
+
+Creer un zip
+
+zip -r nomDuZipp.zip dossierAZipper/
+
+
