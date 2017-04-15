@@ -8,8 +8,7 @@ sudo apt install firefox
 
 
 
-Apache2
-
+Apache2:
 sudo apt-get install apache2
 
 START
@@ -52,28 +51,34 @@ CONVERT CSS TO Sass:
 sass-convert -F css -T sass originalFile.css convertedFile.sass
 
 
-Git
-
+Git:
 sudo apt-get install git
 git config --global user.name monNom
 git config --global user.email monMail
 
 
 
-Atom 64bit
-
-sudo add-apt-repository ppa:webupd8team/atom
-sudo apt-get update
-sudo apt-get install atom
 
 
-Nettoye le system
-
+Nettoye le system:
 sudo apt autoremove
 
 
-Creer un zip
-
+Creer un zip:
 zip -r nomDuZipp.zip dossierAZipper/
 
+
+Brackets:
+sudo add-apt-repository ppa:webupd8team/brackets
+sudo apt-get update
+sudo apt-get install brackets
+
+Uninstall:
+sudo apt-get remove brackets
+
+
+Atom 64bit:
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
 
